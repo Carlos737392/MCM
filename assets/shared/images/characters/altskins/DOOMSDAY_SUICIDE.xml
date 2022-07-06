@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DOOMSDAY SUICIDE.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Shoot himself0000" x="0" y="0" width="443" height="689" frameX="-516" frameY="-3" frameWidth="1482" frameHeight="826"/>
+	<SubTexture name="Shoot himself0001" x="443" y="0" width="435" height="685" frameX="-524" frameY="-7" frameWidth="1482" frameHeight="826"/>
+	<SubTexture name="Shoot himself0002" x="878" y="0" width="435" height="680" frameX="-524" frameY="-12" frameWidth="1482" frameHeight="826"/>
+	<SubTexture name="Shoot himself0003" x="1313" y="0" width="434" height="645" frameX="-525" frameY="-47" frameWidth="1482" frameHeight="826"/>
+	<SubTexture name="Shoot himself0004" x="1747" y="0" width="434" height="640" frameX="-525" frameY="-52" frameWidth="1482" frameHeight="826"/>
+	<SubTexture name="Shoot himself0005" x="2181" y="0" width="435" height="633" frameX="-524" frameY="-59" frameWidth="1482" frameHeight="826"/>
+	<SubTexture name="Shoot himself0006" x="2616" y="0" width="434" height="634" frameX="-525" frameY="-58" frameWidth="1482" frameHeight="826"/>
+	<SubTexture name="Shoot himself0007" x="3050" y="0" width="722" height="692" frameX="-440" frameY="0" frameWidth="1482" frameHeight="826"/>
+	<SubTexture name="Shoot himself0008" x="0" y="692" width="956" height="702" frameX="-390" frameY="-9" frameWidth="1482" frameHeight="826"/>
+	<SubTexture name="Shoot himself0009" x="956" y="692" width="1088" height="702" frameX="-324" frameY="-33" frameWidth="1482" frameHeight="826"/>
+	<SubTexture name="Shoot himself0010" x="2044" y="692" width="1209" height="675" frameX="-251" frameY="-72" frameWidth="1482" frameHeight="826"/>
+	<SubTexture name="Shoot himself0011" x="0" y="1394" width="1407" height="403" frameX="-67" frameY="-344" frameWidth="1482" frameHeight="826"/>
+	<SubTexture name="Shoot himself0012" x="1407" y="1394" width="1479" height="406" frameX="0" frameY="-417" frameWidth="1482" frameHeight="826"/>
+	<SubTexture name="Shoot himself0013" x="0" y="1800" width="1482" height="409" frameX="0" frameY="-417" frameWidth="1482" frameHeight="826"/>
+	<SubTexture name="Shoot himself0014" x="1482" y="1800" width="1481" height="408" frameX="-1" frameY="-417" frameWidth="1482" frameHeight="826"/>
+	<SubTexture name="Shoot himself0015" x="0" y="2209" width="1481" height="408" frameX="-1" frameY="-417" frameWidth="1482" frameHeight="826"/>
+	<SubTexture name="Shoot himself0016" x="1482" y="1800" width="1481" height="408" frameX="-1" frameY="-417" frameWidth="1482" frameHeight="826"/>
+	<SubTexture name="DEAD0000" x="1482" y="1800" width="1481" height="408" frameX="-1" frameY="-417" frameWidth="1482" frameHeight="826"/>
+</TextureAtlas>

@@ -1,0 +1,45 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "scene1",
+			"loop": false,
+			"name": "RobotChicken-KR-Scenes YYB1"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "scene2",
+			"loop": false,
+			"name": "RobotChicken-KR-Scenes Scene2"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/largespritesheets/RobotChicken-KR-Scenes",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "rckr",
+	"flip_x": false,
+	"healthbar_colors": [
+		130,
+		6,
+		24
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1.3
+}
