@@ -1,66 +1,66 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				19,
 				-38
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Dumped_Left",
-			"indices": []
+			"indices": [],
+			"name": "Dumped_Left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				19,
 				-38
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "Dumped_Right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Dumped_Right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				63,
 				-38
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "Dumped_Down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Dumped_Down"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				73,
 				280
 			],
-			"anim": "singUP",
+			"loop": true,
 			"fps": 24,
-			"name": "Dumped_Up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "Dumped_Up"
 		},
 		{
+			"loop": true,
 			"offsets": [
 				19,
 				-38
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": true,
-			"name": "Dumped_Idle"
+			"fps": 24,
+			"name": "Dumped_Idle",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/BOOTLEG_ANNOYED",
+	"image": "characters/BOOTLEG_ANNOYED_v2",
 	"position": [
-		0,
-		0
+		-20,
+		-20
 	],
 	"healthicon": "bootleg",
 	"flip_x": false,

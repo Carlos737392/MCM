@@ -1,5 +1,5 @@
 function onCreate()
-	triggerEvent('Goodbye Hud', '0', '1')
+	triggerEvent('Goodbye Hud', '0', '0.1')
 end
 
 function onStepHit()

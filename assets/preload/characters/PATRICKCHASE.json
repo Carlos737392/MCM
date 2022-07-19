@@ -59,8 +59,8 @@
 	"no_antialiasing": true,
 	"image": "characters/PatrickChase",
 	"position": [
-		450,
-		-60
+		700,
+		-200
 	],
 	"healthicon": "face",
 	"flip_x": false,
@@ -74,5 +74,5 @@
 		110
 	],
 	"sing_duration": 6.1,
-	"scale": 1
+	"scale": 0.8
 }

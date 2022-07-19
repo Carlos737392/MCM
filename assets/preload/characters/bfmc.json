@@ -8,121 +8,143 @@
 			],
 			"anim": "idle",
 			"fps": 24,
-			"name": "BF idle dance",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-20,
-				-51
-			],
-			"anim": "singDOWN",
-			"fps": 24,
-			"name": "BF NOTE DOWN0",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				24,
-				27
-			],
-			"anim": "singUP",
-			"fps": 24,
-			"name": "BF NOTE UP0",
+			"name": "idle",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
 				-15,
-				-19
+				-15
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				51,
+				23
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				115,
+				31
 			],
 			"anim": "singDOWNmiss",
 			"fps": 24,
-			"name": "BF NOTE DOWN MISS",
+			"name": "AAAdown",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				14,
-				27
+				104,
+				67
 			],
 			"anim": "singUPmiss",
 			"fps": 24,
-			"name": "BF NOTE UP MISS",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				7,
-				5
-			],
-			"anim": "hey",
-			"fps": 24,
-			"name": "BF HEY",
+			"name": "AAAup",
 			"indices": []
 		},
 		{
 			"offsets": [
 				45,
-				-6
+				-16
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "BF NOTE RIGHT0"
+			"indices": [],
+			"name": "right"
 		},
 		{
 			"offsets": [
-				-35,
-				-8
+				-15,
+				-25
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "BF NOTE LEFT0"
+			"indices": [],
+			"name": "left"
 		},
 		{
 			"offsets": [
-				-38,
-				17
+				111,
+				26
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHTmiss",
-			"loop": false,
-			"name": "BF NOTE LEFT MISS"
+			"indices": [],
+			"name": "AAAleft"
 		},
 		{
 			"offsets": [
-				41,
+				191,
 				21
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "AAAright"
+		},
+		{
 			"loop": false,
-			"name": "BF NOTE RIGHT MISS"
+			"offsets": [
+				107,
+				46
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "die",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				107,
+				37
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "boing",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				107,
+				37
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "boing",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/BOYFRIEND",
+	"image": "characters/mcbf",
 	"position": [
 		0,
-		350
+		270
 	],
 	"healthicon": "bfmc",
 	"flip_x": false,
 	"healthbar_colors": [
-		89,
-		210,
-		180
+		64,
+		121,
+		199
 	],
 	"camera_position": [
 		0,

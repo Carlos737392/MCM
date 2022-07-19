@@ -11,36 +11,57 @@ function onCreate()
 
 	setProperty('gfGroup.visible', false);
 
-	makeLuaSprite('sky', 'background/served/sky', -1437, -780)
+	-- part 1
+	makeLuaSprite('sky', 'background/served/p1/sky', -1037, -780)
 	addLuaSprite('sky', false)
-	setLuaSpriteScrollFactor('sky', 1, 1)
-	scaleLuaSprite('sky',2,2);
 	setScrollFactor('sky', 0.5, 0.5);
-
-	makeLuaSprite('mountains', 'background/served/mountains', -1037, -320)
+	
+	makeLuaSprite('mountains', 'background/served/p1/mountains', -1237, -680)
 	addLuaSprite('mountains', false)
-	setLuaSpriteScrollFactor('mountains', 1, 1)
-	scaleLuaSprite('mountains',2,2);
 	setScrollFactor('mountains', 0.8, 0.8);
 	
-	makeLuaSprite('floor', 'background/served/floor', -1337, 60)
-	addLuaSprite('floor', false)
-	setLuaSpriteScrollFactor('floor', 1, 1)
-	scaleLuaSprite('floor',2,2);
+	makeLuaSprite('ground', 'background/served/p1/ground', -1437, -780)
+	addLuaSprite('ground', false)
+	setScrollFactor('ground', 1, 1);
 	
-	makeLuaSprite('platforms', 'background/served/platform/platforms', -1345, -85)
+	-- part 2
+	makeLuaSprite('sky2', 'background/served/p2/sky', -1037, -480)
+	addLuaSprite('sky2', false)
+	setScrollFactor('sky2', 0.5, 0.5);
+	
+	makeLuaSprite('ground2', 'background/served/p2/ground', -1437, -780)
+	addLuaSprite('ground2', false)
+	setScrollFactor('ground2', 1, 1);
+	
+	-- platforms
+	makeLuaSprite('platforms', 'background/served/platform/pillar', -1255, -85)
 	addLuaSprite('platforms', false)
 	setLuaSpriteScrollFactor('platforms', 1, 1)
+	
+	makeLuaSprite('platforms2', 'background/served/platform/pillar', -45, -85)
+	addLuaSprite('platforms2', false)
+	setLuaSpriteScrollFactor('platforms2', 1, 1)
 
 	makeLuaSprite('bus', 'background/served/bus/bus', -4845, -885)
 	addLuaSprite('bus', false)
 	setLuaSpriteScrollFactor('bus', 1, 1)
+	
+	makeLuaSprite('light', 'background/served/platform/light', -1245, -1485)
+	addLuaSprite('light', true)
+	setLuaSpriteScrollFactor('light', 1, 1)
 
+	-- visiblity
 	setProperty('sky.visible', true);	
 	setProperty('mountains.visible', true);	
-	setProperty('floor.visible', true);	
+	setProperty('ground.visible', true);	
+	
+	setProperty('sky2.visible', false);	
+	setProperty('ground2.visible', false);	
+	
 	setProperty('platforms.visible', false);
+	setProperty('platforms2.visible', false);
 	setProperty('bus.visible', false);
+	setProperty('light.visible', false);
 end
 
 function onUpdate(elapsed)

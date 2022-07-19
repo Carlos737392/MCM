@@ -1,4 +1,11 @@
 function onStepHit()
+	if curStep == 176 then
+	setProperty('sky.visible', false);
+	setProperty('mountains.visible', false);
+	setProperty('ground.visible', false);
+	setProperty('sky2.visible', true);		
+	setProperty('ground2.visible', true);
+	end
 	if curStep == 1070 then
 	setProperty('bus.visible', true);
 	doTweenX('showup','bus', 150, 0.5, 'cubeOut')
@@ -15,11 +22,11 @@ function onStepHit()
 	if curStep == 1072 then
     doTweenZoom('asfyte', 'camGame', 0.3, 2, 'cubeOut')
     setProperty('defaultCamZoom', 0.3)
-	setProperty('sky.visible', false);	
-	setProperty('mountains.visible', false);	
+	setProperty('sky2.visible', false);	
+	setProperty('ground2.visible', false);
 	setProperty('bus.visible', false);	
-	setProperty('floor.visible', false);	
 	setProperty('platforms.visible', true);
+	setProperty('platforms2.visible', true);
 	end
 end
 			

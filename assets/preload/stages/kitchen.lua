@@ -1,7 +1,8 @@
 function onCreate()
 
 	setProperty('gfGroup.visible', false);
-	
+	setPropertyFromClass('GameOverSubstate', 'characterName', 'bfmc');
+
 	-- phase 1
 	makeLuaSprite('bluelight', 'background/kitchen/phase1/bluelight', -700,-400);
 	addLuaSprite('bluelight', false);

@@ -1,66 +1,66 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				-60
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "SpongeChase Down"
+			"fps": 24,
+			"name": "SpongeChase Down",
+			"indices": []
 		},
 		{
-			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": true,
 			"fps": 24,
-			"name": "SpongeChase Idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "SpongeChase Idle"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				130,
 				1
 			],
-			"anim": "singLEFT",
+			"loop": true,
 			"fps": 24,
-			"name": "SpongeChase Left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "SpongeChase Left"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				-100,
 				-10
 			],
-			"anim": "singRIGHT",
+			"loop": true,
 			"fps": 24,
-			"name": "SpongeChase Right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "SpongeChase Right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				50,
 				130
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "SpongeChase Up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "SpongeChase Up"
 		}
 	],
 	"no_antialiasing": true,
 	"image": "characters/SpongeChase",
 	"position": [
-		-40,
-		0
+		100,
+		-100
 	],
 	"healthicon": "faceless",
 	"flip_x": false,
@@ -74,5 +74,5 @@
 		130
 	],
 	"sing_duration": 6.1,
-	"scale": 1
+	"scale": 0.8
 }

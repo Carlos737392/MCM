@@ -8,7 +8,6 @@ local del = 0
 local del2 = 0
 
 function onCreate()
-	setProperty('boyfriendGroup.visible', false);
 
 	makeLuaSprite('room', 'background/dumped/light', -1280, -750)
 	addLuaSprite('room', false)

@@ -6,11 +6,17 @@ local del = 0;
 local del2 = 0;
 
 function onCreate()
-	makeAnimatedLuaSprite('bg','background/canon/static_bg', -330, 70)
-    addLuaSprite('bg', false)
-    scaleLuaSprite('bg', 0.9, 0.9);
-	addAnimationByPrefix('bg','idle', 'doors', 24, true)
-    luaSpritePlayAnimation("bg", "idle")
+	makeAnimatedLuaSprite('bg','bgs/canon/static_bg', -340, 70)
+	scaleLuaSprite('bg', 0.9, 0.9);
+	addAnimationByPrefix('bg','doors', 'doors', 24, true)
+	addLuaSprite('bg', false);
+end
+
+function onSongStart()
+	noteTweenX("NoteMove1", 0, -1000, 0.5, cubeInOut)
+	noteTweenX("NoteMove2", 1, -1000, 0.5, cubeInOut)
+	noteTweenX("NoteMove3", 2, -1000, 0.5, cubeInOut)
+	noteTweenX("NoteMove4", 3, -1000, 0.5, cubeInOut)
 end
 
 function onUpdate()

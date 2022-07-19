@@ -8,11 +8,22 @@ local del = 0;
 local del2 = 0;
 
 function onCreate()
+	setProperty('gfGroup.visible', false);
+
 	-- background shit
 	makeLuaSprite('background', 'background/void/background', -700,-400);
 	addLuaSprite('background', false);
 	scaleLuaSprite('background',2,2);
 
+    makeLuaSprite('POPUP', 'background/void/POPUP', 0, 0);
+--	scaleObject('POPUP', 6.0, 6.0);
+	setObjectCamera('POPUP', 'other');
+	addLuaSprite('POPUP', true);
+	
+end
+
+function onSongStart()
+	setProperty('POPUP.visible', false)
 end
 
 function onUpdate()

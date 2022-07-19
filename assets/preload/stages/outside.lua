@@ -19,9 +19,6 @@ function onCreate()
 	
 	makeLuaSprite('ground', 'background/outside/ground', -700,-400);
 	addLuaSprite('ground', false);
-
-	makeLuaSprite('houses', 'background/outside/houses', -700,-400);
-	addLuaSprite('houses', false);
 end
 
 function onUpdate()

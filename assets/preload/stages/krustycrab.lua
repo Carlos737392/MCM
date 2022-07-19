@@ -52,10 +52,13 @@ function onUpdate()
             if getProperty('dad.animation.curAnim.name') == 'idle' then
                 triggerEvent('Camera Follow Pos',xx,yy)
             end
-	        if getProperty('dad.animation.curAnim.name') == 'scene1' then
+	        if getProperty('dad.animation.curAnim.name') == 'yellowB' then
                 triggerEvent('Camera Follow Pos',xx,yy)
             end
-	        if getProperty('dad.animation.curAnim.name') == 'scene2' then
+	        if getProperty('dad.animation.curAnim.name') == 'gasp' then
+                triggerEvent('Camera Follow Pos',xx,yy)
+            end
+	        if getProperty('dad.animation.curAnim.name') == 'richestM' then
                 triggerEvent('Camera Follow Pos',xx,yy)
             end
         else
@@ -82,6 +85,9 @@ function onUpdate()
                 triggerEvent('Camera Follow Pos',xx2,yy2)
             end
 			if getProperty('boyfriend.animation.curAnim.name') == 'end' then
+                triggerEvent('Camera Follow Pos',xx2,yy2)
+            end
+			if getProperty('boyfriend.animation.curAnim.name') == 'idk' then
                 triggerEvent('Camera Follow Pos',xx2,yy2)
             end
         end

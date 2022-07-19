@@ -54,6 +54,17 @@
 			"anim": "singRIGHT",
 			"indices": [],
 			"name": " right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 60,
+			"anim": "ineedit",
+			"indices": [],
+			"name": "ineedit"
 		}
 	],
 	"no_antialiasing": false,

@@ -1,21 +1,21 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				-10
 			],
+			"indices": [],
+			"fps": 12,
 			"anim": "idle",
-			"fps": 24,
-			"name": "plankton scream anim",
-			"indices": []
+			"loop": false,
+			"name": "plankton scream anim"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/served_anim_spritethingy",
 	"position": [
-		-80,
+		-100,
 		450
 	],
 	"healthicon": "plankton",

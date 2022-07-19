@@ -11,6 +11,10 @@ function onCreate()
 	makeLuaSprite('sky', 'background/tortured/sky', -1250, -780)
 	addLuaSprite('sky', false)
 	setLuaSpriteScrollFactor('sky', 1, 1)
+	
+	makeLuaSprite('backfloor', 'background/tortured/backfloor', -1250, -840)
+	addLuaSprite('backfloor', false)
+	setLuaSpriteScrollFactor('backfloor', 1, 1)
 
 	makeLuaSprite('mountains', 'background/tortured/mountains', -1250, -700)
 	addLuaSprite('mountains', false)
@@ -19,6 +23,29 @@ function onCreate()
 	makeLuaSprite('floor', 'background/tortured/floor', -1250, -840)
 	addLuaSprite('floor', false)
 	setLuaSpriteScrollFactor('floor', 1, 1)
+	
+	-- THUNDER
+	makeLuaSprite('thunder1', 'background/tortured/thunder/thunder1', -1250, -840)
+	addLuaSprite('thunder1', false)
+	setLuaSpriteScrollFactor('thunder1', 1, 1)
+	
+	makeLuaSprite('thunder2', 'background/tortured/thunder/thunder2', -1250, -840)
+	addLuaSprite('thunder2', false)
+	setLuaSpriteScrollFactor('thunder2', 1, 1)
+	
+	makeLuaSprite('thunder3', 'background/tortured/thunder/thunder3', -1250, -840)
+	addLuaSprite('thunder3', false)
+	setLuaSpriteScrollFactor('thunder3', 1, 1)
+	
+	makeLuaSprite('thunder4', 'background/tortured/thunder/thunder4', -1250, -840)
+	addLuaSprite('thunder4', false)
+	setLuaSpriteScrollFactor('thunder4', 1, 1)
+	
+	-- visiblity
+	setProperty('thunder1.visible', false);	
+	setProperty('thunder2.visible', false);	
+	setProperty('thunder3.visible', false);	
+	setProperty('thunder4.visible', false);	
 end
 
 function onUpdate(elapsed)

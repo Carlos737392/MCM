@@ -9,13 +9,8 @@ local del2 = 0;
 
 function onCreate()
 	-- background shit
-	makeLuaSprite('roomback', 'background/bedroom/back', -700,-400);
-	addLuaSprite('roomback', false);
-	scaleLuaSprite('roomback',2.5,2.5);
-
-	makeLuaSprite('roomfront', 'background/bedroom/fore', -650,-330);
-	addLuaSprite('roomfront',false);
-	scaleLuaSprite('roomfront',1.88,1.88);
+	makeLuaSprite('room', 'background/bedroom/room', -700,-400);
+	addLuaSprite('room', false);
 
 end
 
