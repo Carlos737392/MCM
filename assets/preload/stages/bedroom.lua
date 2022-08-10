@@ -11,6 +11,7 @@ function onCreate()
 	-- background shit
 	makeLuaSprite('room', 'background/bedroom/room', -700,-400);
 	addLuaSprite('room', false);
+scaleObject('room', 2, 2)       
 
 end
 

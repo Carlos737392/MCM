@@ -2,21 +2,24 @@ function onCreate()
 	-- background shit
 	makeLuaSprite('room', 'background/bedroom/room', -700,-400);
 	addLuaSprite('room', false);
+	scaleObject('room', 2, 2)
 
 	makeLuaSprite('suicide', 'background/bedroom/suicide', -700,-400);
 	addLuaSprite('suicide', false);
-	setProperty('suicide.visible', false);	
+	setProperty('suicide.visible', false);
+	scaleObject('suicide', 2, 2)
 	
 	-- stage
 	makeLuaSprite('stagefb', 'background/bedroom/doomsdayfb/stagefb', -890, -200)
 	addLuaSprite('stagefb', false)
 	setLuaSpriteScrollFactor('stagefb', 1, 1)
-	setProperty('stagefb.visible', false);	
+	setProperty('stagefb.visible', false);
+	scaleObject('stagefb', 2, 2)
 
 	makeLuaSprite('curtainstage', 'background/bedroom/doomsdayfb/curtainstage', -890, -450)
 	addLuaSprite('curtainstage', false)
 	setLuaSpriteScrollFactor('curtainstage', 1, 1)
-	scaleObject('curtainstage', 1, 1.1)
+	scaleObject('curtainstage', 2, 2.3)
 	setProperty('curtainstage.visible', false);	
 
 	makeLuaSprite('bbcurtian', 'background/bedroom/doomsdayfb/bbcurtian', -890, -450)
@@ -53,11 +56,13 @@ function onCreate()
 
 	makeLuaSprite('floor', 'background/bedroom/bedroomf/floor', -700,-400);
 	addLuaSprite('floor',false);
-	setProperty('floor.visible', false);		
+	setProperty('floor.visible', false);
+	scaleObject('floor', 2, 2)
 	
 	makeLuaSprite('firefront', 'background/bedroom/bedroomf/firefront', -700,-400);
 	addLuaSprite('firefront', true);
 	setProperty('firefront.visible', false);	
+	scaleObject('firefront', 4, 4)	
 
     makeLuaSprite('shading', 'background/bedroom/bedroomf/shading', -700,-400);
 	addLuaSprite('shading', true);
@@ -71,7 +76,7 @@ function onCreate()
 	
 	-- stage 2 !
 	makeAnimatedLuaSprite('BLOODYTHING','background/bedroom/doomsdayfb2/DoomsdayBack', -890, -400)
-	scaleLuaSprite('BLOODYTHING', 1, 1);
+	scaleLuaSprite('BLOODYTHING', 4, 4);
 	addAnimationByPrefix('BLOODYTHING','Tearflow', 'Tearflow', 24, true)
 	addLuaSprite('BLOODYTHING', false);
 	setProperty('BLOODYTHING.visible', false);
@@ -84,6 +89,7 @@ function onCreate()
 	makeLuaSprite('stagefx', 'background/bedroom/doomsdayfb2/stage', -890, -200)
 	addLuaSprite('stagefx', false)
 	setLuaSpriteScrollFactor('stagefx', 1, 1)
+	scaleObject('stagefx', 2, 2)	
 	setProperty('stagefx.visible', false);	
 
 	makeLuaSprite('curtainstageX', 'background/bedroom/doomsdayfb2/backcurtains', -890, -450)
@@ -95,7 +101,7 @@ function onCreate()
 	makeLuaSprite('Xcurtian', 'background/bedroom/doomsdayfb2/frontcurtains', -890, -450)
 	addLuaSprite('Xcurtian', false)
 	setLuaSpriteScrollFactor('Xcurtian', 1, 1)
-	scaleObject('Xcurtian', 1, 1.1)
+	scaleObject('Xcurtian', 2, 2.4)
 	setProperty('Xcurtian.visible', false);	
 
 	makeLuaSprite('pieces', 'background/bedroom/doomsdayfb2/pieces', -890, -450)
@@ -115,12 +121,13 @@ function onCreate()
 	addAnimationByPrefix('debris','fallingdebris', 'fallingdebris', 24, true)
 	addLuaSprite('debris', true);
 	setProperty('debris.visible', false);
-	scaleObject('debris', 1.3, 1.3)
+	scaleObject('debris', 5.2, 5.2)
 	
 	-- red mist
 	makeLuaSprite('skyx', 'background/bedroom/redmist/sky', -700,-400);
 	addLuaSprite('skyx', false);
-	setProperty('skyx.visible', false);	
+	setProperty('skyx.visible', false);
+	scaleObject('skyx', 2, 2)		
 
 	makeLuaSprite('lighteffect', 'background/bedroom/redmist/lighteffect', -700,-400);
 	addLuaSprite('lighteffect', false);
@@ -128,10 +135,12 @@ function onCreate()
 	
 	makeLuaSprite('roomx', 'background/bedroom/redmist/room', -700,-400);
 	addLuaSprite('roomx', false);
-	setProperty('roomx.visible', false);	
+	setProperty('roomx.visible', false);
+	scaleObject('roomx', 2, 2)	
 	
 	makeLuaSprite('shadingx', 'background/bedroom/redmist/shading', -700,-400);
 	addLuaSprite('shadingx', false);
-	setProperty('shadingx.visible', false);	
+	setProperty('shadingx.visible', false);
+	scaleObject('shadingx', 4, 4)	
 	
 end

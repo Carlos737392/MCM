@@ -12,13 +12,16 @@ function onCreate()
 	makeLuaSprite('sky', 'background/outside/sky', -700,-400);
 	setScrollFactor('sky', 0.5, 0.5);
 	addLuaSprite('sky', false);
+    scaleLuaSprite('sky', 2, 2);
 
 	makeLuaSprite('hills', 'background/outside/hills', -700,-400);
 	setScrollFactor('hills', 0.8, 0.8);
 	addLuaSprite('hills', false);
+	scaleLuaSprite('hills', 2, 2);
 	
 	makeLuaSprite('ground', 'background/outside/ground', -700,-400);
 	addLuaSprite('ground', false);
+    scaleLuaSprite('ground', 2, 2);
 end
 
 function onUpdate()
