@@ -2,8 +2,8 @@
 	"animations": [
 		{
 			"offsets": [
-				250,
-				-5
+				243,
+				-20
 			],
 			"loop": false,
 			"fps": 12,
@@ -13,8 +13,8 @@
 		},
 		{
 			"offsets": [
-				274,
-				70
+				244,
+				-20
 			],
 			"loop": false,
 			"fps": 12,
@@ -26,8 +26,8 @@
 	"no_antialiasing": false,
 	"image": "characters/Scream",
 	"position": [
-		0,
-		0
+		250,
+		100
 	],
 	"healthicon": "darkward",
 	"flip_x": false,
@@ -37,9 +37,9 @@
 		161
 	],
 	"camera_position": [
-		-210,
-		560
+		-350,
+		-200
 	],
 	"sing_duration": 6.1,
-	"scale": 1.2
+	"scale": 2.2
 }

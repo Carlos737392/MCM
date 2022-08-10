@@ -60,18 +60,18 @@
 				-251,
 				-197
 			],
-			"indices": [],
+			"loop": true,
 			"fps": 24,
 			"anim": "idle",
-			"loop": true,
+			"indices": [],
 			"name": "idle"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/largespritesheets/meatcanyon",
 	"position": [
-		-500,
-		-120
+		-300,
+		80
 	],
 	"healthicon": "spongebob",
 	"flip_x": true,
@@ -81,9 +81,9 @@
 		26
 	],
 	"camera_position": [
-		130,
-		210
+		-420,
+		-50
 	],
 	"sing_duration": 6.1,
-	"scale": 1.3
+	"scale": 2.6
 }

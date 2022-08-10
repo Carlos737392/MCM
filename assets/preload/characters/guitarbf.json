@@ -103,8 +103,8 @@
 	"no_antialiasing": true,
 	"image": "characters/guitarBF",
 	"position": [
-		-970,
-		170
+		-550,
+		300
 	],
 	"healthicon": "bf",
 	"flip_x": true,
@@ -118,5 +118,5 @@
 		-60
 	],
 	"sing_duration": 4,
-	"scale": 2.3
+	"scale": 4.6
 }

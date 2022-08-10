@@ -1,33 +1,99 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
+			"anim": "idle",
 			"fps": 12,
-			"anim": "scene1",
-			"loop": false,
-			"name": "RobotChicken-KR-Scenes YYB1"
+			"name": "Idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
+			"anim": "singLEFT",
 			"fps": 12,
-			"anim": "scene2",
+			"name": "Left",
+			"indices": []
+		},
+		{
 			"loop": false,
-			"name": "RobotChicken-KR-Scenes Scene2"
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 12,
+			"name": "Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 12,
+			"name": "Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 12,
+			"name": "Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "yellowB",
+			"fps": 12,
+			"name": "Yellow Bastard",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "gasp",
+			"fps": 12,
+			"name": "Gasp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "richestM",
+			"fps": 12,
+			"name": "Richest Man",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/largespritesheets/RobotChicken-KR-Scenes",
+	"image": "characters/largespritesheets/Krabs",
 	"position": [
-		0,
-		0
+		150,
+		150
 	],
 	"healthicon": "rckr",
 	"flip_x": false,
@@ -37,9 +103,9 @@
 		24
 	],
 	"camera_position": [
-		0,
-		0
+		-200,
+		-100
 	],
 	"sing_duration": 6.1,
-	"scale": 1.3
+	"scale": 2.6
 }

@@ -16,10 +16,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 12,
 			"anim": "idle",
-			"loop": false,
+			"indices": [],
 			"name": "RobotChicken-SP Idle"
 		},
 		{
@@ -27,10 +27,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 12,
 			"anim": "end",
-			"loop": false,
+			"indices": [],
 			"name": "RobotChicken-SP End"
 		},
 		{
@@ -38,10 +38,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 12,
 			"anim": "squid",
-			"loop": false,
+			"indices": [],
 			"name": "RobotChicken-SP Squid"
 		},
 		{
@@ -49,10 +49,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 12,
 			"anim": "singLEFT",
-			"loop": false,
+			"indices": [],
 			"name": "RobotChicken-SP Left"
 		},
 		{
@@ -60,10 +60,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 12,
 			"anim": "singDOWN",
-			"loop": false,
+			"indices": [],
 			"name": "RobotChicken-SP Down"
 		},
 		{
@@ -71,10 +71,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 12,
 			"anim": "singUP",
-			"loop": false,
+			"indices": [],
 			"name": "RobotChicken-SP Up"
 		},
 		{
@@ -82,10 +82,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 12,
 			"anim": "singRIGHT",
-			"loop": false,
+			"indices": [],
 			"name": "RobotChicken-SP Right"
 		},
 		{
@@ -93,10 +93,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 12,
 			"anim": "singLEFTmiss",
-			"loop": false,
+			"indices": [],
 			"name": "RobotChicken-SP MISSLeft"
 		},
 		{
@@ -104,10 +104,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 12,
 			"anim": "singDOWNmiss",
-			"loop": false,
+			"indices": [],
 			"name": "RobotChicken-SP MISSDown"
 		},
 		{
@@ -115,10 +115,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 12,
 			"anim": "singUPmiss",
-			"loop": false,
+			"indices": [],
 			"name": "RobotChicken-SP MISSUp"
 		},
 		{
@@ -126,18 +126,18 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 12,
 			"anim": "singRIGHTmiss",
-			"loop": false,
+			"indices": [],
 			"name": "RobotChicken-SP MISSRight"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/largespritesheets/RobotChicken-SP",
 	"position": [
-		0,
-		350
+		180,
+		540
 	],
 	"healthicon": "rcsp",
 	"flip_x": true,
@@ -147,9 +147,9 @@
 		52
 	],
 	"camera_position": [
-		0,
-		0
+		350,
+		-100
 	],
 	"sing_duration": 4,
-	"scale": 1
+	"scale": 2
 }

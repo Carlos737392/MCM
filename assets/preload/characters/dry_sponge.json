@@ -1,77 +1,77 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 60,
 			"anim": "idle",
-			"indices": [],
-			"name": " idle"
+			"fps": 60,
+			"name": " idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 60,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": " left"
+			"fps": 60,
+			"name": " left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 60,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": " down"
+			"fps": 60,
+			"name": " down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 60,
 			"anim": "singUP",
-			"indices": [],
-			"name": " up"
+			"fps": 60,
+			"name": " up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 60,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": " right"
+			"fps": 60,
+			"name": " right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 60,
 			"anim": "ineedit",
-			"indices": [],
-			"name": "ineedit"
+			"fps": 60,
+			"name": "ineedit",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/largespritesheets/Dry_Spongebob",
 	"position": [
-		0,
-		-30
+		300,
+		200
 	],
 	"healthicon": "driedup",
 	"flip_x": false,
@@ -85,5 +85,5 @@
 		-40
 	],
 	"sing_duration": 8,
-	"scale": 1.35
+	"scale": 5.45
 }

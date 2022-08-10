@@ -1,44 +1,44 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 12,
 			"anim": "vomit",
-			"fps": 12,
-			"name": "RobotChicken-SQ Vomit",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
-			"anim": "idle-alt",
-			"fps": 12,
-			"name": "RobotChicken-SQ Pissed",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
 			"indices": [],
-			"fps": 12,
-			"anim": "idle",
+			"name": "RobotChicken-SQ Vomit"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
 			"loop": false,
-			"name": "RobotChicken-SQ Munching"
+			"fps": 12,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "RobotChicken-SQ Pissed"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 12,
+			"name": "RobotChicken-SQ Munching",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/largespritesheets/RobotChicken-SQ",
 	"position": [
-		80,
-		120
+		240,
+		250
 	],
 	"healthicon": "gf",
 	"flip_x": false,
@@ -52,5 +52,5 @@
 		0
 	],
 	"sing_duration": 4,
-	"scale": 1
+	"scale": 2
 }

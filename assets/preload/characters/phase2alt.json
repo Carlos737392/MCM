@@ -1,77 +1,77 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				50,
 				-50
 			],
+			"loop": false,
+			"fps": 12,
 			"anim": "idle",
-			"fps": 12,
-			"name": "phase2alt_sprites idle",
-			"indices": []
+			"indices": [],
+			"name": "phase2alt_sprites idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				50,
 				-50
 			],
+			"loop": false,
+			"fps": 12,
 			"anim": "singDOWN",
-			"fps": 12,
-			"name": "phase2alt_sprites down",
-			"indices": []
+			"indices": [],
+			"name": "phase2alt_sprites down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				50,
 				-50
 			],
+			"loop": false,
+			"fps": 12,
 			"anim": "singLEFT",
-			"fps": 12,
-			"name": "phase2alt_sprites left",
-			"indices": []
+			"indices": [],
+			"name": "phase2alt_sprites left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				50,
 				-50
 			],
+			"loop": false,
+			"fps": 12,
 			"anim": "singUP",
-			"fps": 12,
-			"name": "phase2alt_sprites up",
-			"indices": []
+			"indices": [],
+			"name": "phase2alt_sprites up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				50,
 				-50
 			],
+			"loop": false,
+			"fps": 12,
 			"anim": "singRIGHT",
-			"fps": 12,
-			"name": "phase2alt_sprites right",
-			"indices": []
+			"indices": [],
+			"name": "phase2alt_sprites right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				50,
 				-50
 			],
-			"anim": "shoot",
+			"loop": false,
 			"fps": 12,
-			"name": "phase2alt_sprites shoot",
-			"indices": []
+			"anim": "shoot",
+			"indices": [],
+			"name": "phase2alt_sprites shoot"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/phase2alt_sprites",
 	"position": [
-		-440,
-		-760
+		150,
+		10
 	],
 	"healthicon": "lolward",
 	"flip_x": false,
@@ -81,9 +81,9 @@
 		145
 	],
 	"camera_position": [
-		-110,
-		20
+		-300,
+		-160
 	],
 	"sing_duration": 6.1,
-	"scale": 0.4
+	"scale": 1.6
 }

@@ -59,8 +59,8 @@
 	"no_antialiasing": false,
 	"image": "characters/phase2_sprites",
 	"position": [
-		-440,
-		-770
+		-50,
+		-250
 	],
 	"healthicon": "lolward",
 	"flip_x": false,
@@ -71,8 +71,8 @@
 	],
 	"camera_position": [
 		-110,
-		20
+		100
 	],
 	"sing_duration": 6.1,
-	"scale": 0.4
+	"scale": 0.8
 }

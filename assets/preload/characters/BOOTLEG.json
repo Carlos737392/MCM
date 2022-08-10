@@ -49,18 +49,18 @@
 				19,
 				-38
 			],
-			"indices": [],
+			"loop": true,
 			"fps": 24,
 			"anim": "idle",
-			"loop": true,
+			"indices": [],
 			"name": "Dumped_Idle"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/BOOTLEG",
 	"position": [
-		0,
-		0
+		160,
+		150
 	],
 	"healthicon": "bootleg",
 	"flip_x": false,
@@ -74,5 +74,5 @@
 		70
 	],
 	"sing_duration": 4,
-	"scale": 1.7
+	"scale": 3.4
 }
