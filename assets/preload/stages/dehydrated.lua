@@ -14,8 +14,8 @@ function onCreate()
 	
 	makeLuaSprite('bg', 'background/dehydrated/TreeDomeBG', -700,-400);
 	addLuaSprite('bg', false);
-	scaleObject('bg', 1.4, 1.4)
-
+	scaleObject('bg', 2.8, 2.8)
+    setProperty('cameraSpeed', 1.3)
 	makeAnimatedLuaSprite('backroundrun','background/dehydrated/COMEHERE/backroundrun', -890, -400)
 	scaleLuaSprite('backroundrun', 2, 2);
 	addAnimationByPrefix('backroundrun','backroundrun idle', 'backroundrun idle', 60, true)

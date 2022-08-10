@@ -10,20 +10,24 @@ local del2 = 0;
 function onCreate()
 	makeLuaSprite('sky', 'background/island/sky', -700,-400);
 	setLuaSpriteScrollFactor('sky', 0.6, 0.6)
-	scaleLuaSprite('sky',2,2);
+	scaleLuaSprite('sky',4,4);
 
 	makeLuaSprite('sun', 'background/island/sun', -700,-400);
 	setLuaSpriteScrollFactor('sun', 0.7, 0.7)
+    scaleLuaSprite('sun',2,2);
 
 	makeLuaSprite('backtrees', 'background/island/backtrees', -700,-250);
 	setLuaSpriteScrollFactor('backtrees', 0.8, 0.8)
 
 	makeLuaSprite('foretrees', 'background/island/foretrees', -700,-250);
 	setLuaSpriteScrollFactor('foretrees', 0.9, 0.9)
+    scaleLuaSprite('foretrees',2,2);
 
 	makeLuaSprite('ground', 'background/island/ground', -700,-250);
+    scaleLuaSprite('ground',2,2);
 	
 	makeLuaSprite('water', 'background/island/water', -700,-250);
+    scaleLuaSprite('water',2,2);
 	
 	addLuaSprite('sky', false);
 	addLuaSprite('sun', false);

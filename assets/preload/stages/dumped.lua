@@ -12,12 +12,12 @@ function onCreate()
 	makeLuaSprite('room', 'background/dumped/light', -1280, -750)
 	addLuaSprite('room', false)
 	setLuaSpriteScrollFactor('room', 1, 1)
-	scaleObject('room', 1, 1.1)
+	scaleObject('room', 2, 2.2)
 
 	makeLuaSprite('light', 'background/dumped/room', -1280, -750)
 	addLuaSprite('light', false)
 	setLuaSpriteScrollFactor('light', 1, 1)
-	scaleObject('light', 1, 1.1)
+	scaleObject('light', 2, 2.2)
 end
 
 function onUpdate(elapsed)

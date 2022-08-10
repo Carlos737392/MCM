@@ -15,40 +15,49 @@ function onCreate()
 	makeLuaSprite('sky', 'background/served/p1/sky', -1037, -780)
 	addLuaSprite('sky', false)
 	setScrollFactor('sky', 0.5, 0.5);
+	scaleLuaSprite('sky',2,2);
 	
 	makeLuaSprite('mountains', 'background/served/p1/mountains', -1237, -680)
 	addLuaSprite('mountains', false)
 	setScrollFactor('mountains', 0.8, 0.8);
+	scaleLuaSprite('mountains',2,2);
 	
 	makeLuaSprite('ground', 'background/served/p1/ground', -1437, -780)
 	addLuaSprite('ground', false)
 	setScrollFactor('ground', 1, 1);
+	scaleLuaSprite('ground',2,2);
 	
 	-- part 2
 	makeLuaSprite('sky2', 'background/served/p2/sky', -1037, -480)
 	addLuaSprite('sky2', false)
 	setScrollFactor('sky2', 0.5, 0.5);
+	scaleLuaSprite('sky2',2,2);
 	
 	makeLuaSprite('ground2', 'background/served/p2/ground', -1437, -780)
 	addLuaSprite('ground2', false)
 	setScrollFactor('ground2', 1, 1);
+	scaleLuaSprite('ground2',2,2);
 	
 	-- platforms
 	makeLuaSprite('platforms', 'background/served/platform/pillar', -1255, -85)
 	addLuaSprite('platforms', false)
 	setLuaSpriteScrollFactor('platforms', 1, 1)
+	scaleLuaSprite('platforms',2,2);
 	
 	makeLuaSprite('platforms2', 'background/served/platform/pillar', -45, -85)
 	addLuaSprite('platforms2', false)
 	setLuaSpriteScrollFactor('platforms2', 1, 1)
+	scaleLuaSprite('platforms2',2,2);
 
 	makeLuaSprite('bus', 'background/served/bus/bus', -4845, -885)
 	addLuaSprite('bus', false)
 	setLuaSpriteScrollFactor('bus', 1, 1)
+	scaleLuaSprite('bus',2,2);
 	
 	makeLuaSprite('light', 'background/served/platform/light', -1245, -1485)
 	addLuaSprite('light', true)
 	setLuaSpriteScrollFactor('light', 1, 1)
+	scaleLuaSprite('light',2,2);
 
 	-- visiblity
 	setProperty('sky.visible', true);	

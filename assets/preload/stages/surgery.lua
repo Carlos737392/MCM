@@ -10,26 +10,32 @@ local del2 = 0;
 function onCreate()
 	--  hi
 	makeLuaSprite('wall2', 'background/surgery/dark/wall', -650,-370);
+    scaleLuaSprite('wall2', 2, 2);
 	addLuaSprite('wall2', false);
 
 	makeLuaSprite('light2', 'background/surgery/dark/light', -650,-330);
+    scaleLuaSprite('light2', 4, 4);
 	addLuaSprite('light2', true);
 	
 	-- background shit
 	makeLuaSprite('wall', 'background/surgery/wall', -650,-330);
 	addLuaSprite('wall', false);
+    scaleLuaSprite('wall', 2, 2); 
 	setProperty('wall.visible', false);
 	
 	makeLuaSprite('floor', 'background/surgery/floor', -650,-330);
 	addLuaSprite('floor', false);
+     scaleLuaSprite('floor', 2, 2);
 	setProperty('floor.visible', false);
 
 	makeLuaSprite('table', 'background/surgery/table', -650,-330);
 	addLuaSprite('table',false);
+    scaleLuaSprite('table', 2, 2);
 	setProperty('table.visible', false);
 	
 	makeLuaSprite('light', 'background/surgery/light', -650,-330);
 	addLuaSprite('light', true);
+    scaleLuaSprite('light', 4, 4);
 	setProperty('light.visible', false);
 
 	-- background shit 2
@@ -37,6 +43,7 @@ function onCreate()
 	addAnimationByPrefix('DeadHallway','deadhallway', 'deadhallway', 24, true)
 	addLuaSprite('DeadHallway', false);
 	setProperty('DeadHallway.visible', false);
+    scaleLuaSprite('DeadHallway', 2, 2);
 	
 	makeAnimatedLuaSprite('BF_BODY','background/surgery/phase2/BF_BODY', 250, 200)
 	addAnimationByPrefix('BF_BODY','BF BODY idle', 'BF BODY idle', 24, true)
